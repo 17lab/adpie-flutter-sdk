@@ -23,6 +23,8 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
+    namespace 'com.adxcorp.adpie_sdk'
+    
     compileSdkVersion 33
 
     compileOptions {
